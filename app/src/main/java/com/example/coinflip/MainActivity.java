@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import java.util.IllegalFormatCodePointException;
 import java.util.Random;
 
 public class MainActivity extends AppCompatActivity {
@@ -31,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         init();
         addListeners();
+        jatekVege();
     }
 
     private void init() {
@@ -85,6 +87,12 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
+
+    }
+    private void jatekVege() {
+        if (dobasokSzama<=5) {
+            //TODO felugró ablak...
+        }
     }
 
 
