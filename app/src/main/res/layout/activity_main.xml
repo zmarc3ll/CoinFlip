@@ -49,6 +49,7 @@
                 android:textSize="25dp"/>
     </LinearLayout>
         <TextView
+            android:id="@+id/gyozelemtext"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Győzelem: "
@@ -59,6 +60,7 @@
             android:layout_height="wrap_content">
 
             <TextView
+                android:id="@+id/veresegText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Vereség: "
